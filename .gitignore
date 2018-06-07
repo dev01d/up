@@ -1,0 +1,12 @@
+up-*
+index-*
+Linux*
+macOS*
+Win*
+node_modules/
+package-lock.json
+.npm
+# Logs
+logs
+*.log
+npm-debug.log*
