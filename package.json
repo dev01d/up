@@ -3,28 +3,29 @@
   "version": "1.0.0",
   "description": "Simply see if a node or domain responds to ICMP packets.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/dev01d/up.git"
-  },
+  "repository": "git://github.com/dev01d/up.git",
+  "homepage": "http://github.com/dev01d/up",
+  "license": "MIT",
   "author": {
     "name": "Jason Behnke",
     "email": "contact@jasonbehnke.net",
     "url": "https://jasonbehnke.net"
   },
+  "scripts": {
+    "build:win": "pkg . --out-path ./dist -t latest-win-x86",
+    "build:mac": "pkg . --out-path ./dist -t latest-macos-x86",
+    "build:arm": "pkg . --out-path ./dist -t latest-linux-armv7",
+    "build:linux": "pkg . --out-path ./dist -t latest-linux-x86"
+  },
   "dependencies": {
     "chalk": "^2.4.1",
-    "ping": "^0.2.2"
+    "ping": "^0.2.2",
+    "pkg": "^4.3.5"
   },
   "bin": {
     "up": "./index.js"
   },
   "engines": {
     "node": ">=0.8"
-  },
-  "homepage": "http://github.com/dev01d/up",
-  "license": "MIT"
+  }
 }
