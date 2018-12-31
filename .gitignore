@@ -9,5 +9,6 @@ package-lock.json
 # Logs
 logs
 *.log
-npm-debug.log*
+npm-debug*
+yarn-debug*
 dist
