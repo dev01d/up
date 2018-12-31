@@ -9,7 +9,7 @@
   "author": {
     "name": "Jason Behnke",
     "email": "contact@jasonbehnke.net",
-    "url": "https://jasonbehnke.net"
+    "url": "https://jasonbehnke.io"
   },
   "scripts": {
     "build:win": "pkg . --out-path ./dist -t latest-win-x86",
