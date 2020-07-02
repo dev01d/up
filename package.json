@@ -20,7 +20,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "ping": "^0.2.2",
-    "pkg": "^4.4.8"
+    "pkg": "^4.4.9"
   },
   "bin": {
     "up": "./index.js"
