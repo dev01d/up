@@ -17,7 +17,7 @@ To try from cloned repo, cd into repo and run `$ npm install` then `$ ./index.js
 
 If you don't have Node installed or just want a cleaner install download a compiled binary from [releases](https://github.com/dev01d/up/releases).
 
-- Binaries are compiled using [pkg from Zeit](https://www.npmjs.com/package/pkg)
+- Binaries are compiled using [pkg](https://www.npmjs.com/package/pkg)
 - Optional: compile your own specifying your OS with `$ pkg . -t latest-"linux/macos/win"-x64` after you've installed pkg of course
 
 This is an exploratory attempt to rewrite [a bash script](https://github.com/dev01d/shell-tools/blob/master/up) in JS.
