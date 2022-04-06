@@ -1,13 +1,23 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "17:30"
-    timezone: America/Los_Angeles
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: pkg
-    versions:
-    - 5.0.0
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+      time: "17:30"
+      timezone: America/Los_Angeles
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "npm"
+    assignees:
+      - dev01d
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+      time: "17:30"
+      timezone: America/Los_Angeles
+    open-pull-requests-limit: 10
+    assignees:
+      - dev01d
