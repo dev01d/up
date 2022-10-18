@@ -18,7 +18,7 @@
     "build:linux": "pkg . --out-path ./dist -t latest-linux-x86"
   },
   "dependencies": {
-    "chalk": "^5.1.0",
+    "chalk": "^5.1.2",
     "ping": "^0.4.2",
     "pkg": "^5.8.0"
   },
